@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/layout_toolbar"/>
+
+    <EditText
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bk"
+        android:hint="请扫描箱码"
+        android:paddingLeft="9dp"
+        android:textCursorDrawable="@drawable/ed"
+        />
+
+    <EditText
+         android:id="@+id/editText1"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:ems="10"
+         android:hint="请扫描条码"
+         android:background="@drawable/bk"
+         android:paddingLeft="9dp"
+         android:paddingRight="9dp"
+         android:textCursorDrawable="@drawable/ed"
+      />
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bk"
+        android:dividerHeight="5dp" >
+    </ListView>
+
+</LinearLayout>

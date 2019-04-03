@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yge.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bk"
+        android:gravity="center_vertical"
+       android:paddingLeft="8dp" >
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单号:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:ems="10"
+        android:hint="请输入订单号"
+        android:paddingLeft="9dp"
+        android:textCursorDrawable="@drawable/ed" />
+
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bk"
+        android:gravity="center_vertical"
+       android:paddingLeft="8dp" >
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排程号:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:ems="10"
+        android:hint="请输入排程号"
+        android:paddingLeft="9dp"
+        android:textCursorDrawable="@drawable/ed" />
+
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bk"
+        android:gravity="center_vertical"
+       android:paddingLeft="8dp" >
+         <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="箱    号:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:ems="10"
+        android:hint="请输入箱号"
+        android:paddingLeft="9dp"
+        android:textCursorDrawable="@drawable/ed" />
+
+    </LinearLayout>
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="开始扫描" />
+   
+</LinearLayout>

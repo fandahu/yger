@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hufan.yger.acitivitys.MainActivity">
+    <include layout="@layout/layout_toolbar"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:drawableTop="@mipmap/sm"
+        android:text="设置路径"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:drawableTop="@mipmap/zhuangx"
+        android:text="装箱扫描"
+        android:textSize="13sp" />
+
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="39dp"
+        android:drawableTop="@mipmap/set"
+        android:text="设置机器号"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/Button3"
+        android:layout_alignStart="@+id/Button3"
+        android:layout_below="@+id/Button3"
+        android:layout_marginTop="52dp"
+        android:drawableTop="@mipmap/set"
+        android:text="状态查询"
+        android:textSize="13sp" />
+
+</RelativeLayout>

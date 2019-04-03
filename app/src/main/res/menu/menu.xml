@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/title"
+        android:orderInCategory="70"
+        android:title="提交数据"
+        app:showAsAction="never" />
+</menu>

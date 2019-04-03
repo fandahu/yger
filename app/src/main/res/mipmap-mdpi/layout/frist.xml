@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:drawableTop="@drawable/sm"
+        android:text="设置路径"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:drawableTop="@drawable/zhuangx"
+        android:text="装箱扫描"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="50dp"
+        android:drawableTop="@drawable/set"
+        android:text="设置机器号"
+        android:textSize="10sp" />
+
+</RelativeLayout>
